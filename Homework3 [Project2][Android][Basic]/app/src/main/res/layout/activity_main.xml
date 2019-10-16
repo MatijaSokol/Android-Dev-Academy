@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        style="@style/constraint"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+            android:id="@+id/linLay1"
+            style="@style/linear"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+                android:id="@+id/ivImage1"
+                style="@style/imageView"
+                android:src="@mipmap/die_1"
+                android:contentDescription="@string/cont_desc_die_1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+        <ImageView
+                android:id="@+id/ivImage2"
+                style="@style/imageView"
+                android:src="@mipmap/die_2"
+                android:contentDescription="@string/cont_desc_die_2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/linLay2"
+            style="@style/linear"
+            app:layout_constraintTop_toBottomOf="@id/linLay1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+                android:id="@+id/ivImage3"
+                style="@style/imageView"
+                android:src="@mipmap/die_3"
+                android:contentDescription="@string/cont_desc_die_3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+        <ImageView
+                android:id="@+id/ivImage4"
+                style="@style/imageView"
+                android:src="@mipmap/die_4"
+                android:contentDescription="@string/cont_desc_die_4"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/linLay3"
+            style="@style/linear"
+            app:layout_constraintTop_toBottomOf="@id/linLay2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+                android:id="@+id/ivImage5"
+                style="@style/imageView"
+                android:src="@mipmap/die_5"
+                android:contentDescription="@string/cont_desc_die_5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+        <ImageView
+                android:id="@+id/ivImage6"
+                style="@style/imageView"
+                android:src="@mipmap/die_6"
+                android:contentDescription="@string/cont_desc_die_6"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/btnShuffle"
+            style="@style/button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

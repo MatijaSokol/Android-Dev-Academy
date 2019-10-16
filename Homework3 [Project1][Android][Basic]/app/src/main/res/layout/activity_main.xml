@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/constraint_title"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".ui.main.MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintUpperPart"
+            style="@style/constraint"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+                style="@style/linear_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/ivImage"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_height"
+                    android:src="@mipmap/face"
+                    app:civ_border_width="@dimen/image_border"
+                    app:civ_shadow="false"
+                    android:scaleType="centerCrop"
+                    android:layout_marginTop="@dimen/image_margin"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    tools:ignore="MissingConstraints"
+                    android:textSize="@dimen/name_size"
+                    android:layout_marginStart="@dimen/name_margin_start"/>
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ScrollView
+            android:id="@+id/lowerPart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/match_constraint"
+            app:layout_constraintTop_toBottomOf="@id/constraintUpperPart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:fillViewport="true">
+
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/constraintLowerPart1"
+                    style="@style/constraint_subtitle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:background="@color/colorAccent">
+
+                <LinearLayout
+                        android:id="@+id/linLayEducation"
+                        style="@style/linear"
+                        android:layout_marginTop="@dimen/linLay_margin_top"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent">
+
+                    <ImageView
+                            android:id="@+id/ivImageEducation"
+                            style="@style/imageView"
+                            android:src="@mipmap/education"/>
+
+                    <TextView
+                            android:id="@+id/subtitle1"
+                            android:text="@string/subtitle1"
+                            style="@style/textViewSubtitle"/>
+
+                </LinearLayout>
+
+                <TextView
+                        app:layout_constraintTop_toBottomOf="@id/linLayEducation"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:text="@string/education_description"
+                        style="@style/textViewDescription"/>
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/constraintLowerPart2"
+                    style="@style/constraint_subtitle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/constraintLowerPart1"
+                    android:background="@color/dark_blue">
+
+                <LinearLayout
+                        android:id="@+id/linLayLife"
+                        style="@style/linear"
+                        android:layout_marginTop="@dimen/linLay_margin_top"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent">
+
+                    <ImageView
+                            android:id="@+id/ivImageLife"
+                            style="@style/imageView"
+                            android:src="@mipmap/life"/>
+
+                    <TextView
+                            android:id="@+id/subtitle2"
+                            style="@style/textViewSubtitle"
+                            android:text="@string/subtitle2"/>
+
+                </LinearLayout>
+
+                <TextView
+                        app:layout_constraintTop_toBottomOf="@id/linLayLife"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:text="@string/life_description"
+                        style="@style/textViewDescription"/>
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/constraintLowerPart3"
+                    style="@style/constraint_subtitle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/constraintLowerPart2"
+                    android:background="@color/light_blue">
+
+                <LinearLayout
+                        android:id="@+id/linLayProgramming"
+                        style="@style/linear"
+                        android:layout_marginTop="@dimen/linLay_margin_top"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent">
+
+                    <ImageView
+                            android:id="@+id/ivImageProgramming"
+                            style="@style/imageView"
+                            android:src="@mipmap/programming"/>
+
+                    <TextView
+                            android:id="@+id/subtitle3"
+                            style="@style/textViewSubtitle"
+                            android:text="@string/subtitle3"/>
+
+                </LinearLayout>
+
+                <TextView
+                        app:layout_constraintTop_toBottomOf="@id/linLayProgramming"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:text="@string/programming_description"
+                        style="@style/textViewDescription"/>
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

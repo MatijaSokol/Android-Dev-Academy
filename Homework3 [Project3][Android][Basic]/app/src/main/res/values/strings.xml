@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="enter_height">Enter your height in meters:</string>
+    <string name="meters">meters</string>
+    <string name="kilograms">kilograms</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_weight">Enter your weight in kilograms:</string>
+    <string name="incorrect_entry">Incorrect entry</string>
+    <string name="weight_big">Weight to big</string>
+    <string name="Thin">thin</string>
+    <string name="Normal">Normal</string>
+    <string name="Fat">Fat</string>
+    <string name="Obese">Obese</string>
+    <string name="height_big">Height to big</string>
+    <string name="enter_values">Enter values</string>
+    <string name="image">image</string>
+</resources>

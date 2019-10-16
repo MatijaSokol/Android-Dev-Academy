@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all">All</string>
+    <string name="favorite">Favorite</string>
+    <string name="top">Top</string>
+    <string name="failed">Failed</string>
+    <string name="added_in_fav">added into favourites</string>
+    <string name="remov_fr_fav">removed from favourites</string>
+    <string name="no_fav">No favourite movies</string>
+    <string name="popular">Popular</string>
+</resources>

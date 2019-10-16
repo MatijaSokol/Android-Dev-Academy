@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Jamb</string>
+    <string name="btn_shuffle">SHUFFLE</string>
+    <string name="cont_desc_die_1">die_1</string>
+    <string name="cont_desc_die_2">die_2</string>
+    <string name="cont_desc_die_3">die_3</string>
+    <string name="cont_desc_die_4">die_4</string>
+    <string name="cont_desc_die_5">die_5</string>
+    <string name="cont_desc_die_6">die_6</string>
+    <string name="end">END</string>
+    <string name="restart">Restart or rotate app for a new game</string>
+</resources>

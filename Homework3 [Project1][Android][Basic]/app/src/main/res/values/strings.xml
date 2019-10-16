@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Matija Sokol</string>
+    <string name="subtitle1">Education</string>
+    <string name="education_description">Faculty of Electrical Engineering, Computer Science and Information Technology Osijek
+        \nEnrolled in 2016
+        \nHigh school of Isidor Kršnjavi, Našice
+        \nScience and Mathematics
+        \nPrimary school of king Tomislav, Našice</string>
+    <string name="subtitle2">Life</string>
+    <string name="life_description">Playing football for local football club
+        \nBaskteball and futsal in free time
+        \nLove watching movies and series
+        \nGame of Thrones, Vikings, Breaking Bad, Prison Break</string>
+    <string name="subtitle3">Programming</string>
+    <string name="programming_description">C, C++, C#, Java, Kotlin
+        \nInterested in desktop and mobile applications
+        \nSome knowledge in HTML and CSS</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="name_size">25sp</dimen>
+    <dimen name="image_margin">10dp</dimen>
+    <dimen name="image_border">4dp</dimen>
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="image_height">120dp</dimen>
+    <dimen name="match_constraint">0dp</dimen>
+    <dimen name="name_margin_start">10dp</dimen>
+    <dimen name="constraint_height">200dp</dimen>
+    <dimen name="icon_width">50dp</dimen>
+    <dimen name="icon_height">50dp</dimen>
+    <dimen name="linLay_margin_top">8dp</dimen>
+</resources>
